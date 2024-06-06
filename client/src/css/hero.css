@@ -1,0 +1,40 @@
+.back1, .back2, .back3{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.html{
+    margin: 0;
+}
+
+.back1{
+    min-height: 100vh;
+    perspective: 10px;
+}
+
+.caption{
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    perspective: 20px;
+}
+
+.computers{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 30%;
+}
+
+.svgLine{
+    transform: rotate(180deg);
+    margin-top: 70px;
+}
+
+

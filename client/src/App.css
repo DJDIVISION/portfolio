@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Red+Hat+Display&display=swap');
+
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  box-sizing: border-box;
+  font-family: "Dosis";
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
